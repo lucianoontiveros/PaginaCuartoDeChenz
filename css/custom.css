@@ -12026,7 +12026,7 @@ button i {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-image: url("./img/recomendadoscard.jpg");
+  background-image: url("img/recomendadoscard.jpg");
 }
 
 .banner .banner__text {
@@ -12115,20 +12115,20 @@ button i {
 
 .card__1 {
   margin: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("./img/twitchcard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("./img/twitchcard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("img/twitchcard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("img/twitchcard.jpg");
 }
 
 .card__2 {
   margin: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("./img/discordcard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("./img/discordcard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("img/discordcard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("img/discordcard.jpg");
 }
 
 .card__3 {
   margin: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("./img/recomendadoscard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("./img/recomendadoscard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5))), url("img/recomendadoscard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.5)), url("img/recomendadoscard.jpg");
 }
 
 /* aqui termina seccion Card */
@@ -12162,8 +12162,8 @@ button i {
           align-items: center;
   width: 100%;
   padding: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("./img/twitchcard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("./img/twitchcard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("img/twitchcard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("img/twitchcard.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
@@ -12185,8 +12185,8 @@ button i {
           align-items: center;
   width: 100%;
   padding: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("./img/discordcard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("./img/discordcard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("img/discordcard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("img/discordcard.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
@@ -12208,8 +12208,8 @@ button i {
           align-items: center;
   width: 100%;
   padding: 1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("./img/recomendadoscard.jpg");
-  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("./img/recomendadoscard.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.7))), url("img/recomendadoscard.jpg");
+  background: linear-gradient(rgba(1, 0, 0, 0.7)), url("img/recomendadoscard.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2em;
@@ -12340,84 +12340,84 @@ button i {
 }
 
 .amino {
-  background: url('./img/Amino.png');
+  background: url("img/Amino.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .willy {
-  background: url('./img/willy.png');
+  background: url("img/willy.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .thewintergallery {
-  background: url('./img/theWinter.png');
+  background: url("img/theWinter.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .moh {
-  background: url('./img/moh.png');
+  background: url("img/moh.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .inda {
-  background: url('./img/inda.png');
+  background: url("img/inda.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .rachel {
-  background: url('./img/rachel.png');
+  background: url("img/rachel.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .arbolesxhora {
-  background: url('./img/arbolesporhora.png');
+  background: url("img/arbolesporhora.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .saray {
-  background: url('./img/saraoyoposita.png');
+  background: url("img/saraoyoposita.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .jess_study {
-  background: url('./img/jess_study.png');
+  background: url("img/jess_study.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .no_soy_kari {
-  background: url('./img/no_soy_kari.png');
+  background: url("img/no_soy_kari.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .cr_adastra {
-  background: url('./img/cr_adastra.png');
+  background: url("img/cr_adastra.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .coworkvirtual {
-  background: url('./img/CoworkVirtual.png');
+  background: url("img/CoworkVirtual.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12479,8 +12479,8 @@ button i {
 
 @media screen and (max-width: 900px) {
   .banner {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url('./img/recomendadoscard.jpg');
-    background: linear-gradient(rgba(0, 0, 0, 0.3)), url('./img/recomendadoscard.jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("img/recomendadoscard.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3)), url("img/recomendadoscard.jpg");
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12506,8 +12506,8 @@ button i {
 
 @media screen and (max-width: 700px) {
   .banner {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url('./img/recomendadoscard.jpg');
-    background: linear-gradient(rgba(0, 0, 0, 0.3)), url('./img/recomendadoscard.jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("img/recomendadoscard.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3)), url("img/recomendadoscard.jpg");
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
