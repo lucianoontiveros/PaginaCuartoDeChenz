@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+    /* font-family: 'Anton', sans-serif; */
+    $font-family-base:'Mulish', sans-serif;
+    $font-titulo: 'Permanent Marker', cursive;
+    $font-titulo2: 'Nanum Myeongjo', serif;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/* navbar  */
+
+.navbar {
+    background-color: black;  
+}
+.navbar-brand {
+    font-family: $font-titulo;
+}
+
+.navbar__container .navbar-brand {
+    color: white;
+}
+
+.navbar__collapse .nav-link {
+    color: white;
+}
+
+.navbar__collapse .nav-link__comunidad:hover {
+    color: greenyellow;
+}
+
+.navbar__collapse .nav-link__twitch:hover {
+    color: purple;
+}
+
+.navbar__collapse .nav-link__discord:hover {
+    color: blue;
+}
+
+.navbar__collapse .nav-link__recomendados:hover {
+    color: pink;
+}
+
+.navbar__button {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: aliceblue;
+}
+button i {
+    margin-top: 15px;
+}
+
+/* aqui termina seccion Navbar */
+
+/* aqui comienza seccion Banner*/
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url('../img/recomendadoscard.jpg')
+};
+
+.banner .banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.banner .banner__text span {
+    font-family: $font-titulo;
+}
+
+/* aqui termina seccion Banner */
+
+/* aqui comienza seccion Banner*/
+
+
+.card__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+};
+
+.card {
+    width: 18em;
+    color:aliceblue;
+    text-align: center;
+}
+
+.card__h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 1em;
+}
+
+.card__h5 h5{
+    margin-left: 5px;
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover {
+    color: mediumorchid;
+}
+
+.btn2:hover {
+    color: blue;
+}
+
+.btn3:hover {
+    color: greenyellow;
+}
+
+
+.card__1 {
+    margin: 1em; 
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5)), url('../img/twitchcard.jpg');
+};
+
+.card__2 {
+    margin: 1em; 
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5)), url('../img/discordcard.jpg');
+};
+
+.card__3 {
+    margin: 1em; 
+    background: linear-gradient(rgba(0.5, 0, 0, 0.5)), url('../img/recomendadoscard.jpg');
+};
+
+/* aqui termina seccion Card */
+
+/* aqui comienza seccion Tarjetas*/
+
+
+.contenedor__tarjeta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    background: linear-gradient(rgba(0.7, 0, 0, 0.7)), url('../img/twitchcard.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+}
+
+.tarjeta1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    background: linear-gradient(rgba(0.7, 0, 0, 0.7)), url('../img/discordcard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+}
+
+.tarjeta2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    background: linear-gradient(rgba(0.7, 0, 0, 0.7)), url('../img/recomendadoscard.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+}
+
+.card__header {
+    border-radius: 2em;
+    margin-bottom: 1em;
+    color: black;
+    background-color: white;
+}
+
+.cardbutton a {
+    display: flex;
+    margin: 1em 0 1em 0;
+    flex-direction: column; 
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 1em;
+    color: black;
+    background-color: aliceblue;
+    border: 10px hidden black;
+}
+
+.cardbutton .button__inicio {
+    display: flex;
+    margin: 1em 0 1em 0;
+    flex-direction: column; 
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 1em;
+    color: white;
+    background-color: black;
+    border: 10px hidden white;
+}
+
+
+/* aqui termina seccion Card */
+
+/* aqui comienza seccion Recomendados*/
+
+#recomendados {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 2em;
+}
+
+.card__contenedorRec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bg-dark {
+    margin: 1em;
+    height: 335px;
+    box-shadow: 10px 5px 5px black;
+    border-style: 2px hidden;
+    border-color: black;
+
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-dark .card-img-overlay h5{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    border-radius: 1em;
+}
+
+.bg-dark .card-img-overlay a {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 1em;
+    color: black;
+    background-color: aliceblue;
+    border: 10px hidden black;
+}
+
+.bg-dark .card-img-overlay a:hover {
+    color: aliceblue;
+    background-color: black;
+}
+
+.amino {
+    background-image: url('../img/Amino.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+.willy {
+    background-image: url('../img/willy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+.thewintergallery {
+    background-image: url('../img/theWinter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+.moh {
+    background-image: url('../img/moh.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+.inda {
+    background-image: url('../img/inda.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.rachel {
+    background-image: url('../img/rachel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.arbolesxhora {
+    background-image: url('../img/arbolesporhora.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.saray {
+    background-image: url('../img/saraoyoposita.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jess_study {
+    background-image: url('../img/jess_study.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.no_soy_kari {
+    background-image: url('../img/no_soy_kari.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cr_adastra {
+    background-image: url('../img/cr_adastra.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coworkvirtual {
+    background-image: url('../img/CoworkVirtual.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border-radius: 1em;
+    
+}
+
+.footer__nav{
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 2em;
+    background-color: aliceblue;
+}
+
+.footer__nav li {
+    list-style:none
+}
+
+.footer__nav li a{
+   text-decoration: none;
+}
+
+.footer__div .footer__nav .iconos {
+    margin: 0 5px 0 5px;
+    color: black;
+}
+
+
+/* custom para telefono moviles y tablets */
+
+@media screen and (max-width:1100px) {
+    .card__3 {
+        width: 100%;
+    }
+} 
+
+@media screen and (max-width:900px) {
+    .banner {
+        background: linear-gradient(rgba(0.3, 0, 0, 0.3)), url(../img/recomendadoscard.jpg);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .card__1 {
+        width: 100%;
+        margin: 1em; 
+    };
+    
+    .card__2 {
+        width: 100%;
+        margin: 1em; 
+    };
+    
+    .card__3 {
+        margin: 1em; 
+    };
+
+    .card img{
+        display: none;
+    }
+} 
+
+@media screen and (max-width:700px) {
+    .banner {
+        background: linear-gradient(rgba(0.3, 0, 0, 0.3)), url(../img/recomendadoscard.jpg);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .card__1 {
+        width: 100%;
+        margin: 1em; 
+    };
+    
+    .card__2 {
+        width: 100%;
+        margin: 1em; 
+    };
+    
+    .card__3 {
+        margin: 1em; 
+    };
+
+    .card img{
+        display: none;
+    }
+
+    .footer__nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2em;
+        background-color: aliceblue;
+    }
+
+    .footer__nav li {
+        margin: 0;
+    }
+ 
+
+} 
